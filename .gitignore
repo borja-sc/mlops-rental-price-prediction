@@ -120,6 +120,11 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# mlruns
+mlruns/
+
+.vscode/
+
 # mypy
 .mypy_cache/
 .dmypy.json
