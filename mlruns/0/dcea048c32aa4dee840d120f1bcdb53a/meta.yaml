@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/mlops-rental-price-prediction/mlruns/0/dcea048c32aa4dee840d120f1bcdb53a/artifacts
+end_time: 1694487663360
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcea048c32aa4dee840d120f1bcdb53a
+run_name: nervous-hawk-139
+run_uuid: dcea048c32aa4dee840d120f1bcdb53a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694487172670
+status: 4
+tags: []
+user_id: borja

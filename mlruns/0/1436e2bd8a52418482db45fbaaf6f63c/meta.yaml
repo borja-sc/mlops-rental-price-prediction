@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/mlops-rental-price-prediction/mlruns/0/1436e2bd8a52418482db45fbaaf6f63c/artifacts
+end_time: 1694487515508
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1436e2bd8a52418482db45fbaaf6f63c
+run_name: carefree-yak-705
+run_uuid: 1436e2bd8a52418482db45fbaaf6f63c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694487403875
+status: 3
+tags: []
+user_id: borja
