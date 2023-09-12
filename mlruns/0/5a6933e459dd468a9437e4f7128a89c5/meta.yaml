@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/5a6933e459dd468a9437e4f7128a89c5/artifacts
+end_time: 1694182875046
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a6933e459dd468a9437e4f7128a89c5
+run_name: salty-hound-964
+run_uuid: 5a6933e459dd468a9437e4f7128a89c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694182872658
+status: 4
+tags: []
+user_id: borja

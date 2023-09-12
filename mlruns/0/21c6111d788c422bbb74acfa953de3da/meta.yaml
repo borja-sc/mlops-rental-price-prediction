@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/21c6111d788c422bbb74acfa953de3da/artifacts
+end_time: 1694156743047
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21c6111d788c422bbb74acfa953de3da
+run_name: rogue-tern-97
+run_uuid: 21c6111d788c422bbb74acfa953de3da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694156266541
+status: 4
+tags: []
+user_id: borja

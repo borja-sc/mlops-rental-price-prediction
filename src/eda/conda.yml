@@ -1,0 +1,13 @@
+name: eda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - wandb
+      - jupyter
+      - seaborn
+      - pandas
+      - ydata-profiling
+      - pyarrow

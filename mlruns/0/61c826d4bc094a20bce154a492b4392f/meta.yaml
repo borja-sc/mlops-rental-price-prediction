@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/61c826d4bc094a20bce154a492b4392f/artifacts
+end_time: 1694444764233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61c826d4bc094a20bce154a492b4392f
+run_name: brawny-bear-262
+run_uuid: 61c826d4bc094a20bce154a492b4392f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694444749499
+status: 4
+tags: []
+user_id: borja

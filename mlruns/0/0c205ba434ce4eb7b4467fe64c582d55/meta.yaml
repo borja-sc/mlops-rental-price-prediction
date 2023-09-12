@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/0c205ba434ce4eb7b4467fe64c582d55/artifacts
+end_time: 1694192143268
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c205ba434ce4eb7b4467fe64c582d55
+run_name: adorable-fawn-938
+run_uuid: 0c205ba434ce4eb7b4467fe64c582d55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694190455241
+status: 4
+tags: []
+user_id: borja

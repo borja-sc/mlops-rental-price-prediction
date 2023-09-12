@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.0-83-generic-x86_64-with-glibc2.31",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-09-08T11:09:41.983028",
+    "startedAt": "2023-09-08T11:09:40.130463",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "EDA.ipynb",
+    "codePathLocal": null,
+    "root": "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices",
+    "git": {
+        "remote": "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices",
+        "commit": "ee12fe923335921a45579ab0e4698c2dbd49f8e4"
+    },
+    "email": "borja.sc95@gmail.com",
+    "host": "borja-HP-Pavilion-Laptop-15-cs2xxx",
+    "username": "borja",
+    "executable": "/home/borja/miniconda3/envs/mlflow-80abe4793b364cf98613351f7a4b1547eb820193/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1738.7493749999999,
+        "min": 400.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 799.998,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.1952133178711,
+            "used": 68.80210494995117
+        }
+    },
+    "memory": {
+        "total": 15.50381088256836
+    }
+}

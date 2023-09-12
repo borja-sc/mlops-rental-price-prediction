@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/f09501deb0c049379f78f109e0a3f211/artifacts
+end_time: 1694446320162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f09501deb0c049379f78f109e0a3f211
+run_name: puzzled-doe-988
+run_uuid: f09501deb0c049379f78f109e0a3f211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694444788937
+status: 4
+tags: []
+user_id: borja

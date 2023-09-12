@@ -1,0 +1,22 @@
+
+2023-09-09 04:40:22,543 Get train+val artifact
+2023-09-09 04:40:24,379 Minimum price: 10, Maximum price: 350
+2023-09-09 04:40:24,397 Preparing sklearn pipeline
+2023-09-09 04:40:24,397 Fitting
+Traceback (most recent call last):
+  File "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 280, in <module>
+    go(args)
+  File "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 74, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/sklearn/pipeline.py", line 420, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/sklearn/base.py", line 1144, in wrapper
+    estimator._validate_params()
+  File "/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/sklearn/base.py", line 637, in _validate_params
+    validate_parameter_constraints(
+  File "/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of RandomForestRegressor must be a str among {'friedman_mse', 'poisson', 'absolute_error', 'squared_error'}. Got 'mae' instead.

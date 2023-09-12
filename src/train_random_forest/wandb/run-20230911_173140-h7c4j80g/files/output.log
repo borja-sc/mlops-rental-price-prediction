@@ -1,0 +1,63 @@
+
+2023-09-11 17:31:45,842 Get train+val artifact
+2023-09-11 17:31:48,227 Minimum price: 10, Maximum price: 350
+2023-09-11 17:31:48,250 Preparing sklearn pipeline
+2023-09-11 17:31:48,251 Fitting
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/validation.py:514: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+joblib.externals.loky.process_executor._RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 273, in _wrap_func_call
+    return func()
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 589, in __call__
+    return [func(*args, **kwargs)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 589, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 169, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 1247, in fit
+    super().fit(
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 350, in fit
+    criterion = CRITERIA_REG[self.criterion](self.n_outputs_,
+KeyError: 'absolute_error'
+"""
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 280, in <module>
+    go(args)
+  File "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 74, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/pipeline.py", line 346, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 387, in fit
+    trees = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 1952, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 1595, in _get_outputs
+    yield from self._retrieve()
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 1699, in _retrieve
+    self._raise_error_fast()
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 1734, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 736, in get_result
+    return self._return_or_raise()
+  File "/home/borja/miniconda3/envs/mlflow-811ed80a6b23b6c49e20d39bd4a7f2cd920c14d8/lib/python3.9/site-packages/joblib/parallel.py", line 754, in _return_or_raise
+    raise self._result
+KeyError: 'absolute_error'

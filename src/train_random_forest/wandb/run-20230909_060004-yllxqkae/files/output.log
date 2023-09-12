@@ -1,0 +1,13 @@
+
+2023-09-09 06:00:07,275 Get train+val artifact
+2023-09-09 06:00:09,180 Minimum price: 10, Maximum price: 350
+2023-09-09 06:00:09,193 Preparing sklearn pipeline
+2023-09-09 06:00:09,194 Fitting
+2023-09-09 06:01:43,195 Scoring
+2023-09-09 06:01:43,346 Score: 0.552568887885921
+2023-09-09 06:01:43,346 MAE: 33.45150822368421
+2023-09-09 06:01:43,346 Exporting model
+/home/borja/miniconda3/envs/mlflow-15b1a95d3efb61094e0e28bf49ac7c7d3bc39908/lib/python3.11/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[34m[1mwandb[39m[22m: Adding directory to artifact (./random_forest_dir)... Done. 0.2s
+2023-09-09 06:01:45,472 Logging artifact

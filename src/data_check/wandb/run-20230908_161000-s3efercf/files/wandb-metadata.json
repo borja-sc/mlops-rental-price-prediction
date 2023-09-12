@@ -1,0 +1,92 @@
+{
+    "os": "Linux-5.15.0-83-generic-x86_64-with-glibc2.31",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-09-08T14:10:01.934095",
+    "startedAt": "2023-09-08T14:10:00.443312",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/borja/miniconda3/envs/mlflow-6dac9786560af51f2d65e4045cf6339fbae79118/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices",
+        "commit": "ee12fe923335921a45579ab0e4698c2dbd49f8e4"
+    },
+    "email": "borja.sc95@gmail.com",
+    "root": "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "borja-HP-Pavilion-Laptop-15-cs2xxx",
+    "username": "borja",
+    "executable": "/home/borja/miniconda3/envs/mlflow-6dac9786560af51f2d65e4045cf6339fbae79118/bin/python3.11",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1699.966125,
+        "min": 400.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 799.644,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.1952133178711,
+            "used": 70.18251037597656
+        }
+    },
+    "memory": {
+        "total": 15.50381088256836
+    }
+}

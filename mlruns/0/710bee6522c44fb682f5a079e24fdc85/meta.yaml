@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/710bee6522c44fb682f5a079e24fdc85/artifacts
+end_time: 1694182213476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 710bee6522c44fb682f5a079e24fdc85
+run_name: unique-hound-286
+run_uuid: 710bee6522c44fb682f5a079e24fdc85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694182020731
+status: 4
+tags: []
+user_id: borja

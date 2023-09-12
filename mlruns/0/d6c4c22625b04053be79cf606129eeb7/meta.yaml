@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/d6c4c22625b04053be79cf606129eeb7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6c4c22625b04053be79cf606129eeb7
+run_name: exultant-bug-922
+run_uuid: d6c4c22625b04053be79cf606129eeb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694223875801
+status: 1
+tags: []
+user_id: borja

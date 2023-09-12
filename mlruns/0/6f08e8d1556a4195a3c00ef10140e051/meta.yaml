@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/6f08e8d1556a4195a3c00ef10140e051/artifacts
+end_time: 1694232412792
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f08e8d1556a4195a3c00ef10140e051
+run_name: handsome-pig-708
+run_uuid: 6f08e8d1556a4195a3c00ef10140e051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694232125504
+status: 3
+tags: []
+user_id: borja

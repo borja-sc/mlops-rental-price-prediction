@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/d3536fdc55cd4a538a225dfd5803ff41/artifacts
+end_time: 1694232933048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3536fdc55cd4a538a225dfd5803ff41
+run_name: luminous-snake-365
+run_uuid: d3536fdc55cd4a538a225dfd5803ff41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694232613802
+status: 3
+tags: []
+user_id: borja

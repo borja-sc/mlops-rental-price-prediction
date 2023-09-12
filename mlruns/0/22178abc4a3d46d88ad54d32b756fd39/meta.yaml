@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/22178abc4a3d46d88ad54d32b756fd39/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22178abc4a3d46d88ad54d32b756fd39
+run_name: defiant-finch-492
+run_uuid: 22178abc4a3d46d88ad54d32b756fd39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694192666839
+status: 1
+tags: []
+user_id: borja

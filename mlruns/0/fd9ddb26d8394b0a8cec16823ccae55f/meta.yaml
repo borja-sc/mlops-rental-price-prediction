@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/fd9ddb26d8394b0a8cec16823ccae55f/artifacts
+end_time: 1694223835165
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd9ddb26d8394b0a8cec16823ccae55f
+run_name: lyrical-calf-579
+run_uuid: fd9ddb26d8394b0a8cec16823ccae55f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694222873487
+status: 4
+tags: []
+user_id: borja

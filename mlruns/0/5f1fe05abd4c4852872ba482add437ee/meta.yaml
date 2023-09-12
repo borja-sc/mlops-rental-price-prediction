@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/5f1fe05abd4c4852872ba482add437ee/artifacts
+end_time: 1694231928456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f1fe05abd4c4852872ba482add437ee
+run_name: bittersweet-goat-690
+run_uuid: 5f1fe05abd4c4852872ba482add437ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694231670657
+status: 3
+tags: []
+user_id: borja

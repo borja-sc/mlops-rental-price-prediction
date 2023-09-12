@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/540e36546e13490c957f419789f7e53c/artifacts
+end_time: 1694179707208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 540e36546e13490c957f419789f7e53c
+run_name: enthused-mare-172
+run_uuid: 540e36546e13490c957f419789f7e53c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179586737
+status: 3
+tags: []
+user_id: borja

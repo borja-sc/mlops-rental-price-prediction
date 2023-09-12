@@ -1,0 +1,28 @@
+2023-09-08 16:32:18,442 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Configure stats pid to 116457
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Loading settings from /home/borja/.config/wandb/settings
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Loading settings from /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/wandb/settings
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-08 16:32:18,443 INFO    MainThread:116457 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/basic_cleaning/run.py', 'program': '/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/run.py'}
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:_log_setup():524] Logging user logs to /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/wandb/run-20230908_163218-6kml5edp/logs/debug.log
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:_log_setup():525] Logging internal logs to /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/wandb/run-20230908_163218-6kml5edp/logs/debug-internal.log
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:init():564] calling init triggers
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:init():614] starting backend
+2023-09-08 16:32:18,444 INFO    MainThread:116457 [wandb_init.py:init():618] setting up manager
+2023-09-08 16:32:18,448 INFO    MainThread:116457 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-08 16:32:18,451 INFO    MainThread:116457 [wandb_init.py:init():624] backend started and connected
+2023-09-08 16:32:18,459 INFO    MainThread:116457 [wandb_init.py:init():715] updated telemetry
+2023-09-08 16:32:18,480 INFO    MainThread:116457 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2023-09-08 16:32:19,171 INFO    MainThread:116457 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-08 16:32:19,302 INFO    MainThread:116457 [wandb_run.py:_on_init():2229] got version response 
+2023-09-08 16:32:19,302 INFO    MainThread:116457 [wandb_init.py:init():799] starting run threads in backend
+2023-09-08 16:32:20,487 INFO    MainThread:116457 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-08 16:32:20,488 INFO    MainThread:116457 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-08 16:32:20,488 INFO    MainThread:116457 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-08 16:32:20,488 INFO    MainThread:116457 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-08 16:32:20,489 INFO    MainThread:116457 [wandb_init.py:init():840] run started, returning control to user process
+2023-09-08 16:32:20,489 INFO    MainThread:116457 [wandb_run.py:_config_callback():1324] config_cb None None {'input_artifact': 'sample.csv:latest', 'output_artifact': 'clean_sample.csv', 'output_type': 'clean_sample', 'output_description': 'Data with outliers and null values removed', 'min_price': 10.0, 'max_price': 350.0}
+2023-09-08 16:32:32,724 WARNING MsgRouterThr:116457 [router.py:message_loop():77] message_loop has been closed

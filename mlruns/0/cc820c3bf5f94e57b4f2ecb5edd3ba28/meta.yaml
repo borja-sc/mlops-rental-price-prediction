@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/cc820c3bf5f94e57b4f2ecb5edd3ba28/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc820c3bf5f94e57b4f2ecb5edd3ba28
+run_name: unequaled-stoat-779
+run_uuid: cc820c3bf5f94e57b4f2ecb5edd3ba28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694169965347
+status: 1
+tags: []
+user_id: borja

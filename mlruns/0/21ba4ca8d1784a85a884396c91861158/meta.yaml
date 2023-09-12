@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/21ba4ca8d1784a85a884396c91861158/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21ba4ca8d1784a85a884396c91861158
+run_name: nebulous-skunk-983
+run_uuid: 21ba4ca8d1784a85a884396c91861158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694168305460
+status: 1
+tags: []
+user_id: borja

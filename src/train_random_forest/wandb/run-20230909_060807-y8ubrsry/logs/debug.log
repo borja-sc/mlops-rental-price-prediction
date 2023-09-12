@@ -1,0 +1,29 @@
+2023-09-09 06:08:07,935 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Configure stats pid to 58676
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Loading settings from /home/borja/.config/wandb/settings
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Loading settings from /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/settings
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-09 06:08:07,936 INFO    MainThread:58676 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/train_random_forest/run.py', 'program': '/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py'}
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:_log_setup():524] Logging user logs to /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230909_060807-y8ubrsry/logs/debug.log
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:_log_setup():525] Logging internal logs to /home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230909_060807-y8ubrsry/logs/debug-internal.log
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:init():564] calling init triggers
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:init():614] starting backend
+2023-09-09 06:08:07,937 INFO    MainThread:58676 [wandb_init.py:init():618] setting up manager
+2023-09-09 06:08:07,941 INFO    MainThread:58676 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-09 06:08:07,944 INFO    MainThread:58676 [wandb_init.py:init():624] backend started and connected
+2023-09-09 06:08:07,950 INFO    MainThread:58676 [wandb_init.py:init():715] updated telemetry
+2023-09-09 06:08:07,962 INFO    MainThread:58676 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2023-09-09 06:08:08,673 INFO    MainThread:58676 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-09 06:08:09,230 INFO    MainThread:58676 [wandb_run.py:_on_init():2229] got version response 
+2023-09-09 06:08:09,231 INFO    MainThread:58676 [wandb_init.py:init():799] starting run threads in backend
+2023-09-09 06:08:11,209 INFO    MainThread:58676 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-09 06:08:11,210 INFO    MainThread:58676 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-09 06:08:11,210 INFO    MainThread:58676 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-09 06:08:11,210 INFO    MainThread:58676 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-09 06:08:11,211 INFO    MainThread:58676 [wandb_init.py:init():840] run started, returning control to user process
+2023-09-09 06:08:11,211 INFO    MainThread:58676 [wandb_run.py:_config_callback():1324] config_cb None None {'trainval_artifact': 'trainval_data.csv:latest', 'val_size': 0.2, 'random_seed': 42, 'stratify_by': 'neighbourhood_group', 'rf_config': '/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/multirun/2023-09-09/05-51-32/7/rf_config.json', 'max_tfidf_features': 5, 'output_artifact': 'random_forest_export'}
+2023-09-09 06:08:11,212 INFO    MainThread:58676 [wandb_run.py:_config_callback():1324] config_cb None None {'n_estimators': 200, 'max_depth': 100, 'min_samples_split': 4, 'min_samples_leaf': 3, 'n_jobs': -1, 'criterion': 'absolute_error', 'max_features': 0.5, 'oob_score': True}
+2023-09-09 06:10:11,992 WARNING MsgRouterThr:58676 [router.py:message_loop():77] message_loop has been closed

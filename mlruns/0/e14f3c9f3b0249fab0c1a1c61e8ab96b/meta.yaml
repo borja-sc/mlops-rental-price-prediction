@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/e14f3c9f3b0249fab0c1a1c61e8ab96b/artifacts
+end_time: 1694232933342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e14f3c9f3b0249fab0c1a1c61e8ab96b
+run_name: amusing-hog-62
+run_uuid: e14f3c9f3b0249fab0c1a1c61e8ab96b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694231490414
+status: 3
+tags: []
+user_id: borja

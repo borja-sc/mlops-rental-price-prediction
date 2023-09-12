@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/7bc1e0d7ea7543aaa763c8ff60bb52f8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bc1e0d7ea7543aaa763c8ff60bb52f8
+run_name: resilient-crane-630
+run_uuid: 7bc1e0d7ea7543aaa763c8ff60bb52f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694155803758
+status: 1
+tags: []
+user_id: borja

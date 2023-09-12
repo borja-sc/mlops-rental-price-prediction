@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.0-83-generic-x86_64-with-glibc2.31",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-09-08T10:59:09.212327",
+    "startedAt": "2023-09-08T10:59:08.076264",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "EDA.ipynb",
+    "codePathLocal": null,
+    "root": "/home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices",
+    "git": {
+        "remote": "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices",
+        "commit": "ee12fe923335921a45579ab0e4698c2dbd49f8e4"
+    },
+    "email": "borja.sc95@gmail.com",
+    "host": "borja-HP-Pavilion-Laptop-15-cs2xxx",
+    "username": "borja",
+    "executable": "/home/borja/miniconda3/envs/mlflow-8cf5ec542849683f25d75b66c57ba86781387479/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1796.4457499999999,
+        "min": 400.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1308.706,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 799.996,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1381.745,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1294.109,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2000.0,
+            "min": 400.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.1952133178711,
+            "used": 68.60153198242188
+        }
+    },
+    "memory": {
+        "total": 15.50381088256836
+    }
+}

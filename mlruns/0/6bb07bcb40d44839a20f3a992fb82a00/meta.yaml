@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/6bb07bcb40d44839a20f3a992fb82a00/artifacts
+end_time: 1694227235048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bb07bcb40d44839a20f3a992fb82a00
+run_name: merciful-yak-183
+run_uuid: 6bb07bcb40d44839a20f3a992fb82a00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694224292160
+status: 4
+tags: []
+user_id: borja

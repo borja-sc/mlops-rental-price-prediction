@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/10c8ca8f61484f98b9cb55da0bb7d390/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10c8ca8f61484f98b9cb55da0bb7d390
+run_name: capricious-smelt-664
+run_uuid: 10c8ca8f61484f98b9cb55da0bb7d390
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694169659603
+status: 1
+tags: []
+user_id: borja

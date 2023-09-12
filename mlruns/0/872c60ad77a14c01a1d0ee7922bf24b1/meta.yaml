@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/872c60ad77a14c01a1d0ee7922bf24b1/artifacts
+end_time: 1694151888940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 872c60ad77a14c01a1d0ee7922bf24b1
+run_name: grandiose-doe-264
+run_uuid: 872c60ad77a14c01a1d0ee7922bf24b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694151887142
+status: 4
+tags: []
+user_id: borja

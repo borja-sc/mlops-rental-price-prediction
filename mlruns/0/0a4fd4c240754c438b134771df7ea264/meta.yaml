@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/0a4fd4c240754c438b134771df7ea264/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a4fd4c240754c438b134771df7ea264
+run_name: salty-skunk-602
+run_uuid: 0a4fd4c240754c438b134771df7ea264
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694153988633
+status: 1
+tags: []
+user_id: borja

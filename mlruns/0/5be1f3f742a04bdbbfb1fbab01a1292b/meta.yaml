@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/5be1f3f742a04bdbbfb1fbab01a1292b/artifacts
+end_time: 1694152224073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5be1f3f742a04bdbbfb1fbab01a1292b
+run_name: nosy-roo-882
+run_uuid: 5be1f3f742a04bdbbfb1fbab01a1292b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694152222020
+status: 4
+tags: []
+user_id: borja

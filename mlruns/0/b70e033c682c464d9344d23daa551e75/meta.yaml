@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/b70e033c682c464d9344d23daa551e75/artifacts
+end_time: 1694232483669
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b70e033c682c464d9344d23daa551e75
+run_name: defiant-mare-546
+run_uuid: b70e033c682c464d9344d23daa551e75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694232412883
+status: 3
+tags: []
+user_id: borja

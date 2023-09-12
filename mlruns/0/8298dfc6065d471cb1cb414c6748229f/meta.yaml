@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/8298dfc6065d471cb1cb414c6748229f/artifacts
+end_time: 1694437557184
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8298dfc6065d471cb1cb414c6748229f
+run_name: bald-crow-11
+run_uuid: 8298dfc6065d471cb1cb414c6748229f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694437542373
+status: 4
+tags: []
+user_id: borja

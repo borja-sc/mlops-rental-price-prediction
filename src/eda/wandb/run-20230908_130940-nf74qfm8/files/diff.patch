@@ -1,0 +1,92 @@
+diff --git a/conda.yml b/conda.yml
+index 220ec0b..c1a5b27 100644
+--- a/conda.yml
++++ b/conda.yml
+@@ -3,7 +3,7 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - mlflow=1.14.1
++  - mlflow=2.2.2
+   - pyyaml=5.3.1
+   - hydra-core=1.0.6
+   - pip=20.3.3
+diff --git a/environment.yml b/environment.yml
+index efabac5..76ec83f 100644
+--- a/environment.yml
++++ b/environment.yml
+@@ -3,15 +3,17 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - mlflow=1.14.1
+-  - ipython=7.21.0
+-  - notebook=6.2.0
+-  - jupyterlab=3.0.10
+-  - cookiecutter=1.7.2
+-  - hydra-core=1.0.6
+-  - matplotlib=3.3.4
+-  - pandas=1.2.3
++  - python=3.10
+   - git=2.30.2
+   - pip=20.3.3
+   - pip:
+-      - wandb==0.10.31
++      - wandb==0.13.9
++      - mlflow==2.2.2
++      - ipython==7.21.0
++      - notebook==6.2.0
++      - jupyterlab==3.0.10
++      - cookiecutter==1.7.2
++      - hydra-core==1.0.6
++      - matplotlib==3.3.4
++      - pandas==1.2.3
++
+diff --git a/src/eda/MLproject b/src/eda/MLproject
+index 359ce48..4e68b68 100644
+--- a/src/eda/MLproject
++++ b/src/eda/MLproject
+@@ -3,4 +3,4 @@ conda_env: conda.yml
+ 
+ entry_points:
+   main:
+-    command: jupyter notebook
++    command: "jupyter notebook"
+diff --git a/src/eda/conda.yml b/src/eda/conda.yml
+index 2411369..085ed29 100644
+--- a/src/eda/conda.yml
++++ b/src/eda/conda.yml
+@@ -3,11 +3,11 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - jupyterlab=3.0.12
+-  - seaborn=0.11.1
+-  - pandas=1.2.3
+-  - pip=20.3.3
+-  - pandas-profiling=2.11.0
+-  - pyarrow=2.0
++  - pip
+   - pip:
+-      - wandb==0.10.31
+\ No newline at end of file
++      - wandb
++      - jupyter
++      - seaborn
++      - pandas
++      - ydata-profiling
++      - pyarrow
+\ No newline at end of file
+diff --git a/src/train_random_forest/conda.yml b/src/train_random_forest/conda.yml
+index c481bc6..bb1b8e4 100644
+--- a/src/train_random_forest/conda.yml
++++ b/src/train_random_forest/conda.yml
+@@ -5,7 +5,7 @@ channels:
+ dependencies:
+   - pandas=1.1.4
+   - pip=20.3.3
+-  - mlflow=1.14.1
++  - mlflow=2.2.2
+   - scikit-learn=0.24.1
+   - matplotlib=3.2.2
+   - pillow=8.1.2

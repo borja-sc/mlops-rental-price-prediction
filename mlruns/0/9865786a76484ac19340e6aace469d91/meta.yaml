@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/9865786a76484ac19340e6aace469d91/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9865786a76484ac19340e6aace469d91
+run_name: grandiose-cub-641
+run_uuid: 9865786a76484ac19340e6aace469d91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694169506794
+status: 1
+tags: []
+user_id: borja

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/borja/Development/GitHub/build-ml-pipeline-for-short-term-rental-prices/mlruns/0/5ec5b155f5ab46cf831a719e8f93269e/artifacts
+end_time: 1694479439818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ec5b155f5ab46cf831a719e8f93269e
+run_name: carefree-mole-622
+run_uuid: 5ec5b155f5ab46cf831a719e8f93269e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694479369667
+status: 3
+tags: []
+user_id: borja
